@@ -7,4 +7,8 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/mangas/manga:/capitulo', (req, res) => {
+  res.send(`${req.params.manga}`)
+})
+
 app.listen(8080, () => console.log('Iniciando API http://localhost:8080'));
