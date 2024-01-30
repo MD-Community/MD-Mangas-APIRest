@@ -12,3 +12,10 @@ npm run dev
 https://www.atlassian.com/br/git/glossary#commands
 ```
 
+**Atualizações**
+
+ - Rotas `/`, `/:manga` e `/:manga/:capitulo`.
+ 
+- Rota '/' obtem e envia ao front end a lista de mangás da API do MangaDex.
+- Rota '/:manga' obtem informações detalhadas sobre um mangá com base no ID.
+- Rota '/:manga/:capitulo' obtem informações e imagens de um capítulo específico de um mangá.
