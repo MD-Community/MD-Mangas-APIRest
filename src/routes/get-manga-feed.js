@@ -27,7 +27,7 @@ router.get('/:mangaId', async (req, res) => {
   }
   catch (error) {
     console.error('Erro na solicitação, ' + error);
-    res.status(404).json('Not found');
+    res.status(500).json('Not found');
   };
 
 });
