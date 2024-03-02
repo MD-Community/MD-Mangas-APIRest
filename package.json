@@ -4,15 +4,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js localhost 8080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "MD-Community",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
